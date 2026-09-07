@@ -66,3 +66,58 @@ nav a:hover {
     background-color: rgb(114, 172, 69);
     color: #fff;
 }
+
+main {
+    padding: 0.6em;
+}
+
+.titre-plan {
+    font-size: 2.1em;
+    font-weight: normal;
+    color: rgb(136, 136, 136);
+    margin-bottom: 0.5em;
+}
+
+.intro {
+    font-size: 1.5em;
+    color: rgb(114, 172, 69);
+    line-height: 1.7em;
+    margin-bottom: 0.8em;
+}
+
+main p {
+    font-size: 0.9em;
+    color: rgb(136, 136, 136);
+    line-height: 1.7em;
+    margin-bottom: 0.8em;
+}
+
+main ol {
+    font-size: 0.9em;
+    color: rgb(136, 136, 136);
+    line-height: 1.7em;
+    margin: 0 0 0.8em 1.8em;
+}
+
+.vert {
+    color: rgb(114, 172, 69);
+}
+
+.perso {
+    float: right;
+    width: 12em;
+    height: auto;
+    border: 0.5em solid rgb(213, 213, 213);
+    border-radius: 0.6em;
+    margin: 0 0 0.8em 0.8em;
+}
+
+.savoir-plus {
+    display: block;
+    margin-bottom: 1.2em;
+}
+
+.savoir-plus img {
+    height: 1.3em;
+    width: auto;
+}
