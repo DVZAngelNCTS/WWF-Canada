@@ -121,3 +121,89 @@ main ol {
     height: 1.3em;
     width: auto;
 }
+
+.titre-commentaire {
+    font-size: 2.1em;
+    font-weight: normal;
+    color: rgb(136, 136, 136);
+    margin-bottom: 0.6em;
+    clear: both;
+}
+
+form {
+    margin-bottom: 1.5em;
+}
+
+form label {
+    display: inline-block;
+    font-size: 1.1em;
+    color: rgb(114, 172, 69);
+    margin-bottom: 0.4em;
+}
+
+.form-ligne {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5em 1em;
+    margin-bottom: 0.8em;
+}
+
+.form-ligne input {
+    font-size: 0.9em;
+    padding: 0.4em;
+    border: 0.0625em solid rgb(213, 213, 213);
+}
+
+#identite {
+    flex: 1;
+}
+
+#courriel {
+    flex: 1;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    padding: 0.5em;
+    border: 0.0625em solid rgb(213, 213, 213);
+    margin-bottom: 0.8em;
+    resize: vertical;
+}
+
+button {
+    font-size: 0.9em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(136, 136, 136);
+    background-color: #fff;
+    border: 0.0625em solid rgb(213, 213, 213);
+    padding: 0.6em 1.5em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(220, 220, 220);
+}
+
+.gift-banniere {
+    display: block;
+}
+
+.gift-banniere img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: rgb(136, 136, 136);
+    padding: 0.6em;
+}
+
+footer p {
+    font-size: 0.7em;
+    color: #fff;
+}
